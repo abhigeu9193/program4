@@ -12,6 +12,7 @@ class program4
         int empWage = 0;
         Random random = new Random();
         int empCheck = random.Next(0, 2);
+        Console.WriteLine(value: empCheck);
 
         switch (empCheck)
         {
